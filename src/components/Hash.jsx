@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { compteurHash } from "../compteur";
+import { compteurHash } from "../atoms/compteur";
 
 function Hash() {
   const hash = useRecoilValue(compteurHash);

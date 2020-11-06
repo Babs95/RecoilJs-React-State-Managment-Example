@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import { currentUserId, userState } from "../user";
+import { currentUserId, userState } from "../atoms/user";;
 
 function UserList() {
   const [users, setUsers] = useState(null);

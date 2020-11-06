@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { compteurState } from "../compteur";
+import { compteurState } from "../atoms/compteur";
 
 function Compteur() {
   const [n, setN] = useRecoilState(compteurState);

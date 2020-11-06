@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { currentUser } from "../user";
+import { currentUser } from "../atoms/user";
 
 function UserDetailSummary() {
   const user = useRecoilValue(currentUser);

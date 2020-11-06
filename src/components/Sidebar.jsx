@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { useRecoilValue } from "recoil";
-import { currentUserId } from "../user";
+import { currentUserId } from "../atoms/user";
 import UserDetailSummary from "./UserDetailSummary";
 //import { useRecoilValue } from "recoil";
 //import { compteurDouble } from "../compteur";

@@ -1,9 +1,10 @@
 import { Suspense } from "react";
 import "./App.css";
+import Sidebar from "./components/Sidebar";
+import UserDetails from "./components/UserDetails";
 //import Compteur from "./atoms/components/Compteur";
 //import Hash from "./atoms/components/Hash";
-import Sidebar from "./atoms/components/Sidebar";
-import UserDetails from "./atoms/components/UserDetails";
+
 
 function App() {
   if (1 !== 2) {
@@ -18,11 +19,11 @@ function App() {
           <Compteur /> */}
           {/* <Compteur id="2" /> */}
           <Suspense fallback="Loading....">
-            <UserDetails />
+            <UserDetails/>
           </Suspense>
         </div>
         <div className="col-sm-4">
-          <Sidebar />
+          <Sidebar/>
         </div>
       </header>
     </div>
